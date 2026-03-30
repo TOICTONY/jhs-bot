@@ -10,13 +10,13 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 # ============================================================================
 # CONFIGURATION & CREDENTIALS (Set these in your VPS/Heroku Environment Variables)
 # ============================================================================
-API_ID = os.environ.get("API_ID", "YOUR_API_ID_HERE")
-API_HASH = os.environ.get("API_HASH", "YOUR_API_HASH_HERE")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+API_ID = os.environ.get("API_ID", "39034621")
+API_HASH = os.environ.get("API_HASH", "a5588c196de45f2aa1f31e6f4860915d")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8133639700:AAEBUmI7r9Fi7MsVG-BVMYUzHNMGS4sP1w0")
 
 # SECURITY: Replace with your actual Telegram User ID (Get it from @userinfobot)
 # If using Heroku, add OWNER_ID to your Config Vars.
-OWNER_ID = int(os.environ.get("OWNER_ID", "123456789")) 
+OWNER_ID = int(os.environ.get("OWNER_ID", "7846568978")) 
 
 OUTPUT_DIR = Path("downloads")
 OUTPUT_DIR.mkdir(exist_ok=True)
